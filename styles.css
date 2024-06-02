@@ -1,0 +1,106 @@
+html {
+    font-family: "Lexend Mega", sans-serif;
+    font-size: 20px;
+    background-color: rgb(160, 37, 37);
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: aquamarine;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    height: fit-content;
+    padding-bottom: 1rem;
+}
+
+li {
+    margin: 1rem 1rem 0 0;
+    display: inline-block;
+}
+a {
+    font-weight: bolder;
+    color: maroon;
+}
+
+a:hover {
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#club-name {
+    color: aquamarine;
+    background-color: rgba(127, 255, 212, 0.2);
+    margin-top: 10rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#statement {
+    color: aquamarine;
+    margin-top: 15rem;
+    background-color: rgba(127, 255, 212, 0.2);
+    margin-bottom: 0;
+    text-shadow: 2px 2px 3px black;
+}
+
+#feast {
+    color: aquamarine;
+    background-color: rgba(127, 255, 212, 0.2);
+    margin-top: 0;
+    text-shadow: 2px 2px 3px black;
+}
+
+#picture-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
+
+img {
+    max-height: 350px;
+}
+
+figcaption {
+    margin-top: 1rem;
+}
+
+#testimonial {
+    color: aquamarine;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    background-color: rgba(12, 41, 31, 0.613);
+}
+
+@media screen and (max-width:650px) {
+    #jumps {
+        max-height: 220px;
+        width: auto;
+        object-fit: contain;
+        box-sizing: border-box;
+    }
+
+
+    #box-jumps figcaption *{
+        display: flex;
+        justify-self: center;
+        align-self: center;
+    }
+
+        
+    }
+
